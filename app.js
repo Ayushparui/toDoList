@@ -3,7 +3,7 @@ const bodyParser = require("body-parser")
 const mongoose = require("mongoose")
 const PORT = process.env.PORT;
 if(PORT == null || PORT == ""){
-    PORT = 3000;
+    PORT == 3000;
 }
 const _ = require("lodash")
 // console.log(date())
